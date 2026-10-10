@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <header>
+    <h1>{{ .Site.Params.name }}</h1>
+    <h2>{{ .Site.Params.role }}</h2>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>I am an IT professional interested in SAP Basis,
+      SAP S/4HANA, Linux administration and cloud computing.</p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>SAP Basis Administration</li>
+        <li>SAP S/4HANA</li>
+        <li>SUSE Linux</li>
+        <li>Microsoft Azure Networking</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <p>Microsoft Azure Network Engineer Associate — AZ-700</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: {{ .Site.Params.email }}</p>
+    </section>
+  </main>
+</body>
+</html>

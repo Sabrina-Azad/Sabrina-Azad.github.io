@@ -1,0 +1,13 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "SAP Professional Portfolio"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  name = "Sabrina Azad"
+  role = "SAP Basis Administrator"
+  location = "Bangladesh"
+  email = "sabrina.azad08@gmail.com"
+  linkedin = "https://www.linkedin.com/"
+
+  
