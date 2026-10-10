@@ -1,6 +1,6 @@
 baseURL = "https://sabrina-azad.github.io/"
 languageCode = "en-us"
-title = "SAP Professional Portfolio"
+title = "SAP Professional Portfolio."
 disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
 
 [params]
